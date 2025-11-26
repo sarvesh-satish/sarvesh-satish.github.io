@@ -62,16 +62,26 @@ content:
           Tech: Python, GitHub API, Git automation, CI tooling<br>
           Role: Backend + repository analysis logic
         description: |
-          A hackathon project built during Liberty Mutual’s intern program to detect likely merge conflicts before they break CI or slow collaboration. The tool analyzed branches across multiple repositories, compared drift, and alerted engineers when patterns suggested future conflicts.
+          Built a tool to detect likely merge conflicts before they break CI or slow collaboration. It analyzes branches across multiple repositories using the GitHub API, measures drift, and alerts engineers when patterns suggest future conflicts.
 
-          My Contributions:
-          - Designed the branch comparison algorithm using GitHub’s API
-          - Implemented conflict-detection heuristics for risky divergence
-          - Built the backend script to scan repositories on a schedule
-          - Co-led the pitch and demo contributing to a 3rd-place finish
+          **My Contributions:**
 
-          Note:
-          - Repository is private to Liberty Mutual for internal security reasons.
+          🔹 **Branch Analysis Algorithm**
+          - Designed comparison logic using GitHub’s API to diff branches across repos
+
+          🔹 **Conflict Heuristics**
+          - Implemented rules that flag risky divergence patterns early
+
+          🔹 **Automated Scanning**
+          - Wrote the backend script to run on a schedule and publish alerts
+
+          🔹 **Pitch & Demo**
+          - Co-led the presentation that placed 3rd out of 25+ teams
+
+          🔹 **Cross‑Team Collaboration**
+          - Worked with SWE and SRE interns to reflect real workflows
+
+          Note: Repository is private to Liberty Mutual for security reasons.
 
       - layout: top-middle
         title: Idea.AI — Luddy Hackathon Project (April 2025)
