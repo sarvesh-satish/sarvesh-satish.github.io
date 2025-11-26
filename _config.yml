@@ -57,8 +57,10 @@ content:
     content:
       - layout: top-middle
         title: Idea.AI (Hackathon Project)
-        link: /projects/idea-ai
         additional_links:
+          - title: Project Overview
+            icon: fas fa-file-alt
+            url: /projects/idea-ai.html
           - title: Team Repo
             icon: fab fa-github
             url: https://github.com/Yuskur/Luddy_Hackathon_Case1
