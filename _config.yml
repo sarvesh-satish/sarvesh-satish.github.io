@@ -61,10 +61,10 @@ content:
           - title: Team Repo
             icon: fab fa-github
             url: https://github.com/Yuskur/Luddy_Hackathon_Case1
-        quote: |
-          Full-stack AI idea-ranking tool built with Mistral via Ollama.
-          Role: Full-stack developer (LLM integration, backend, ranking logic)
-          Tech: Node.js, Express, React, Docker, Ollama (Mistral LLM)
+        quote: >
+          Full-stack AI idea-ranking tool built with Mistral via Ollama.<br>
+          Role: Full-stack developer (LLM integration, backend, ranking logic)<br>
+          Tech: Node.js, Express, React, Docker, Ollama (Mistral LLM)<br>
           Team Size: 4
         description: |
           Idea.AI is a tool that helps teams evaluate and prioritize ideas using Mistral through Ollama. The app scores ideas based on customizable ROI and Effort metrics, then ranks them using a dynamic, weight-driven algorithm exposed through a clean React UI.
@@ -77,7 +77,7 @@ content:
 
           🔹 **Dynamic Ranking System**
           - Added adjustable weight sliders to prioritize ROI, Effort, or balance both
-          - Connected real-time updates from UI → backend → LLM → frontend
+          - Connected real-time updates from UI -> backend -> LLM -> frontend
 
           🔹 **Backend & Infrastructure**
           - Built Express API routes for evaluation, ranking, and agent logic
