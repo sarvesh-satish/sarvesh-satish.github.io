@@ -45,7 +45,7 @@ linkedin_username: sarvesh-satish-05-
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.png
+about_profile_image: images/Profile.png
 about_content: | # this will include new lines to allow paragraphs
   I’m a junior at Indiana University majoring in Computer Science with a minor in Business. From an early age, I was drawn to technology, whether it was optimizing game performance or troubleshooting tech issues for my family, I enjoyed solving problems and seeing the impact firsthand. This passion naturally led me to computer science, where I thrive on tackling challenges and building solutions.
 
