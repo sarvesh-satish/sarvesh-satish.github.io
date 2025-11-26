@@ -56,20 +56,19 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: https://github.com/sproogen
-        # link_text: Project Website
+        title: Idea.AI (Hackathon Project)
+        link: /projects/idea-ai
         additional_links:
-          - title: sproogen/modern-resume-theme
+          - title: Team Repo
             icon: fab fa-github
-            url: https://github.com/sproogen/modern-resume-theme
-          # - title: Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. https://sproogen.github.io/modern-resume-theme)
+            url: https://github.com/Yuskur/Luddy_Hackathon_Case1
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Full-stack AI idea-ranking tool built with Mistral via Ollama. Created during the Luddy Hackathon.
+        description: |
+          Built a full-stack application that uses Ollama’s Mistral LLM to evaluate, rank, and prioritize ideas based on ROI and Effort metrics. Implemented a dynamic weight-based scoring system so users can fine-tune AI criteria and receive data-driven recommendations.
+
+          Contributed backend development using Node.js and Express, integrated Docker for consistent shared environments, and helped the team adopt React for the first time. Overcame LLM integration challenges and delivered a functional prototype under hackathon constraints.
+
 
   - title: Experience
     layout: list
