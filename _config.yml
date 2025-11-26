@@ -56,20 +56,36 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Idea.AI (Hackathon Project)
+        title: Idea.AI — Luddy Hackathon Project (April 2025)
         additional_links:
-          - title: Project Overview
-            icon: fas fa-file-alt
-            url: https://sarvesh-satish.github.io/projects/idea-ai.html
           - title: Team Repo
             icon: fab fa-github
             url: https://github.com/Yuskur/Luddy_Hackathon_Case1
         quote: >
-          Full-stack AI idea-ranking tool built with Mistral via Ollama. Created during the Luddy Hackathon.
+          Full-stack AI idea-ranking tool built with Mistral via Ollama. Role: Full-stack developer (LLM integration, backend, ranking logic) | Tech: Node.js, Express, React, Docker, Ollama (Mistral LLM) | Team Size: 4
         description: |
-          Built a full-stack application that uses Ollama’s Mistral LLM to evaluate, rank, and prioritize ideas based on ROI and Effort metrics. Implemented a dynamic weight-based scoring system so users can fine-tune AI criteria and receive data-driven recommendations.
+          Idea.AI is a tool that helps teams evaluate and prioritize ideas using Mistral through Ollama. The app scores ideas based on customizable ROI and Effort metrics, then ranks them using a dynamic, weight-driven algorithm exposed through a clean React UI.
 
-          Contributed backend development using Node.js and Express, integrated Docker for consistent shared environments, and helped the team adopt React for the first time. Overcame LLM integration challenges and delivered a functional prototype under hackathon constraints.
+          **My Contributions:**
+
+          🔹 **AI Evaluation Pipeline**
+          - Integrated Ollama's Mistral model and built the custom prompt workflow
+          - Implemented the algorithm that evaluates ideas based on ROI/Effort
+
+          🔹 **Dynamic Ranking System**
+          - Added adjustable weight sliders to prioritize ROI, Effort, or balance both
+          - Connected real-time updates from UI → backend → LLM → frontend
+
+          🔹 **Backend & Infrastructure**
+          - Built Express API routes for evaluation, ranking, and agent logic
+          - Helped teammates adopt React effectively for the first time
+
+          **Screenshots:**
+
+          <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+            <img src="/images/idea-ai/Manage_Idea.png" alt="Manage Ideas page" style="max-width: 45%; height: auto;">
+            <img src="/images/idea-ai/idea_homepage.png" alt="Home page" style="max-width: 45%; height: auto;">
+          </div>
 
 
   - title: Experience
