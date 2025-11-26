@@ -1,3 +1,8 @@
+---
+layout: default
+title: Idea.AI - Hackathon Project
+---
+
 # Idea.AI — Luddy Hackathon Project (April 2025)
 
 **Role:** Full-stack developer (LLM integration, backend, ranking logic)  
