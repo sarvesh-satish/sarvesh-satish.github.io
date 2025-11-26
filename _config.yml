@@ -72,21 +72,21 @@ content:
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience
-  layout: list
-  content:
-    - layout: left
-      title: Liberty Mutual Insurance
-      link: libertymutual.com
-      sub_title: Software Engineering Intern
-      caption: Summer 2025 – Indianapolis, IN
-      quote: >
-        Selected as 1 of 150 interns from over 4,000 applicants to help build internal engineering tools powering teams across the company.
-      description: |
-        Extended an internal K6 accelerator by building and integrating over 5 new features, including automated test triggering through GitHub Actions. This reduced manual effort and improved load-test coverage for more than a dozen engineering teams.
-
-        Designed and implemented a migration script that moved projects from LoadRunner Enterprise to LoadRunner Cloud, saving roughly 5 hours per project across 16 projects (over 80 total hours). This solved a vendor-declared limitation using custom scripting and pipeline automation.
-
-        Earned 3rd place out of 25+ teams at the intern hackathon by creating a tool that analyzes Git branches and alerts developers of potential merge conflicts across teams, improving collaboration and reducing integration issues.
+    layout: list
+    content:
+      - layout: left
+        title: Liberty Mutual Insurance
+        link: libertymutual.com
+        sub_title: Software Engineering Intern
+        caption: Summer 2025 – Indianapolis, IN
+        quote: >
+          Selected as 1 of 150 interns from over 4,000 applicants to help build internal engineering tools powering teams across the company.
+        description: |
+          Extended an internal K6 accelerator by building and integrating over 5 new features, including automated test triggering through GitHub Actions. This reduced manual effort and improved load-test coverage for more than a dozen engineering teams.
+  
+          Designed and implemented a migration script that moved projects from LoadRunner Enterprise to LoadRunner Cloud, saving roughly 5 hours per project across 16 projects (over 80 total hours). This solved a vendor-declared limitation using custom scripting and pipeline automation.
+  
+          Earned 3rd place out of 25+ teams at the intern hackathon by creating a tool that analyzes Git branches and alerts developers of potential merge conflicts across teams, improving collaboration and reducing integration issues.
 
   - title: Education
   layout: list
