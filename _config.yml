@@ -56,6 +56,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Merge Conflict Detector (Liberty Mutual Intern Hackathon)
+        quote: >
+          Summer 2025 • 3rd of 25+ teams<br>
+          Tech: Python, GitHub API, Git automation, CI tooling<br>
+          Role: Backend + repository analysis logic
+        description: |
+          A hackathon project built during Liberty Mutual’s intern program to detect likely merge conflicts before they break CI or slow collaboration. The tool analyzed branches across multiple repositories, compared drift, and alerted engineers when patterns suggested future conflicts.
+
+          My Contributions:
+          - Designed the branch comparison algorithm using GitHub’s API
+          - Implemented conflict-detection heuristics for risky divergence
+          - Built the backend script to scan repositories on a schedule
+          - Co-led the pitch and demo contributing to a 3rd-place finish
+
+          Note:
+          - Repository is private to Liberty Mutual for internal security reasons.
+
+      - layout: top-middle
         title: Idea.AI — Luddy Hackathon Project (April 2025)
         additional_links:
           - title: Team Repo
