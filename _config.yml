@@ -61,8 +61,8 @@ content:
           - title: Team Repo
             icon: fab fa-github
             url: https://github.com/Yuskur/Luddy_Hackathon_Case1
-        quote: >
-          Full-stack AI idea-ranking tool built with Mistral via Ollama. 
+        quote: |
+          Full-stack AI idea-ranking tool built with Mistral via Ollama.
           Role: Full-stack developer (LLM integration, backend, ranking logic)
           Tech: Node.js, Express, React, Docker, Ollama (Mistral LLM)
           Team Size: 4
