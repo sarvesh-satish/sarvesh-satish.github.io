@@ -53,23 +53,23 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  layout: list # Type of content section (list/text)
+  content:
+    - layout: top-middle
+      title: Super awesome project
+      link: github.com/sproogen
+      # link_text: Project Website
+      additional_links:
+        - title:  sproogen/modern-resume-theme
+          icon: fab fa-github
+          url: github.com/sproogen/modern-resume-theme
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      quote: >
+        This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+      description: | # this will include new lines to allow paragraphs
+        I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience
     layout: list
@@ -88,19 +88,20 @@ content:
   
           Earned 3rd place out of 25+ teams at the intern hackathon by creating a tool that analyzes Git branches and alerts developers of potential merge conflicts across teams, improving collaboration and reducing integration issues.
 
-  - title: Education
-  layout: list
-  content:
-    - layout: left
-      title: Indiana University — Luddy School of Informatics, Computing, and Engineering
-      caption: May 2027
-      sub_title: B.S. in Computer Science • Minor in Business • GPA: 3.75/4.00
-      quote: >
-        Focused on software engineering, systems programming, mobile development, and business fundamentals through a mix of technical coursework and applied projects.
-      description: |
-        At Indiana University, I built a strong foundation in computer science with coursework in systems programming, data structures, software engineering, web development, and mobile app development. I combined this with a business minor that strengthened my understanding of strategy, operations, and organizational decision-making.
+    - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Indiana University — Luddy School of Informatics, Computing, and Engineering
+        caption: May 2027
+        sub_title: B.S. in Computer Science • Minor in Business • GPA: 3.75/4.00
+        quote: >
+          Focused on software engineering, systems programming, mobile development, and business fundamentals through a mix of technical coursework and applied projects.
+        description: |
+          At Indiana University, I built a strong foundation in computer science with coursework in systems programming, data structures, software engineering, web development, and mobile app development. I combined this with a business minor that strengthened my understanding of strategy, operations, and organizational decision-making.
 
-        Outside of the classroom, I worked on several semester-long engineering projects, participated in hackathons, and held leadership roles in professional organizations such as Phi Gamma Nu. These experiences helped me develop collaboration skills, technical depth, and a practical approach to building software.
+          Outside of the classroom, I worked on several semester-long engineering projects, participated in hackathons, and held leadership roles in professional organizations such as Phi Gamma Nu. These experiences helped me develop collaboration skills, technical depth, and a practical approach to building software.
+
 
   - title: A Little More About Me
     layout: text
