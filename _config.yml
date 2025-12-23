@@ -63,21 +63,21 @@ content:
           Role: Algorithm design, heuristic analysis, benchmarking
         description: |
           Built an AI-driven campus navigation system that computes optimal walking routes using classical search algorithms. The project models real campus pathways as a weighted graph and evaluates how heuristic choice impacts performance in A* search.
-      
+          
           **My Contributions:**
-      
+
           🔹 **Graph Modeling & Pathfinding**
           - Modeled campus buildings and walkways as a weighted graph using OpenStreetMap data
           - Implemented Dijkstra’s and A* search to compute optimal routes between locations
-      
+
           🔹 **Heuristic Design & Evaluation**
           - Implemented and compared Haversine (great-circle) and Euclidean heuristics for A*
           - Demonstrated ~72% fewer node expansions and ~2.4× runtime improvement over Dijkstra with an admissible heuristic
-      
+
           🔹 **Algorithmic Analysis**
           - Analyzed time and space complexity and validated optimality guarantees
           - Showed how poor heuristic choice can eliminate A*’s performance advantages
-          
+
       - layout: top-middle
         title: Merge Conflict Detector (Liberty Mutual Intern Hackathon)
         quote: >
