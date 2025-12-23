@@ -59,27 +59,23 @@ content:
         title: Merge Conflict Detector (Liberty Mutual Intern Hackathon)
         quote: >
           Summer 2025 • 3rd of 25+ teams<br>
-          Tech: Python, GitHub API, Git automation, CI tooling<br>
+          Tech: Python, GitHub API, Git automation, CI tooling, GitHub webhooks<br>
           Role: Backend + repository analysis logic
         description: |
           Built a tool to detect likely merge conflicts before they break CI or slow collaboration. It analyzes branches across multiple repositories using the GitHub API, measures drift, and alerts engineers when patterns suggest future conflicts.
 
           **My Contributions:**
 
-          🔹 **Branch Analysis Algorithm**
-          - Designed comparison logic using GitHub’s API to diff branches across repos
+          🔹 **Merge Conflict Detection Logic**
+          - Built webhook-triggered backend logic to detect merge conflicts on repository push events
+          - Generated Git compare URLs to give engineers immediate visibility into conflicting changes
 
-          🔹 **Conflict Heuristics**
-          - Implemented rules that flag risky divergence patterns early
-
-          🔹 **Automated Scanning**
-          - Wrote the backend script to run on a schedule and publish alerts
-
+          🔹 **Backend APIs & Integration**
+          - Implemented REST endpoints to deliver structured conflict data to the Slack bot
+          - Defined payload formats and contracts used by the notification layer
+          
           🔹 **Pitch & Demo**
-          - Co-led the presentation that placed 3rd out of 25+ teams
-
-          🔹 **Cross‑Team Collaboration**
-          - Worked with SWE and SRE interns to reflect real workflows
+          - Co-led the project pitch and live demo that placed 3rd out of 25+ teams
 
           Note: Repository is private to Liberty Mutual for security reasons.
 
