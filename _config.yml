@@ -52,32 +52,38 @@ about_content: | # this will include new lines to allow paragraphs
   Across two software engineering internships at Liberty Mutual, I’ve built retrieval-augmented generation systems, automated performance-testing workflows, and data migration tools. My projects span Next.js, TypeScript, Python, React, Node.js, and cloud-native developer tooling. Beyond engineering, leading the Standards Board for Phi Gamma Nu strengthened my ability to communicate clearly, make thoughtful decisions, and help teams succeed.
 
 content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Liberty Mutual Insurance
+        link: https://www.libertymutual.com
+        sub_title: Software Engineering Intern — Digital Analytics
+        caption: Summer 2026 – Boston, MA
+        quote: >
+          Re-architected an analytics-requirements assistant and expanded its reviewed knowledge base while improving the team’s engineering workflow.
+        description: |
+          Re-architected a Slack-based analytics-requirements chatbot from a monolithic knowledge-base prompt into a retrieval-augmented generation (RAG) system. Built a router that selects the relevant analytics implementation requirement document types while handling ambiguous requests.
+
+          Built a human-in-the-loop Excel-to-JSON ingestion pipeline and Git-reviewable knowledge base, expanding coverage from 1 to 3 document types with 68 reviewed records from 45 real analytics flows and 23 always-on rules.
+
+          Diagnosed more than 400 Codacy failures in a Kafka consumer as an ESLint v9 and Jest globals configuration gap. Reproduced the local/CI mismatch, isolated the CI/CD failure to an internal GitHub Actions wrapper, and drove platform and vendor escalation to a documented upstream limitation.
+
+      - layout: left
+        title: Liberty Mutual Insurance
+        link: https://www.libertymutual.com
+        sub_title: Software Engineering Intern — Software Testing
+        caption: Summer 2025 – Indianapolis, IN
+        quote: >
+          Built performance-testing tools and migration automation used across more than a dozen engineering teams.
+        description: |
+          Extended an internal k6 accelerator by building and integrating over 5 new features, including automated test triggering through GitHub Actions. This reduced manual effort and improved load-test coverage for more than a dozen engineering teams.
+
+          Designed and implemented a migration script that moved projects from LoadRunner Enterprise to LoadRunner Cloud, saving roughly 5 hours per project across 16 projects (over 80 total hours). This solved a vendor-declared limitation using custom scripting and pipeline automation.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Smart Campus Navigation (AI Search & Heuristic Analysis)
-        quote: >
-          Spring 2025 • CSCI-B 351 (Artificial Intelligence)<br>
-          Tech: Python, A*, Dijkstra, OpenStreetMap, graph search, heuristics<br>
-          Role: Algorithm design, heuristic analysis, benchmarking
-        description: |
-          Built an AI-driven campus navigation system that computes optimal walking routes using classical search algorithms. The project models real campus pathways as a weighted graph and evaluates how heuristic choice impacts performance in A* search.
-          
-          **My Contributions:**
-
-          🔹 **Graph Modeling & Pathfinding**
-          - Modeled campus buildings and walkways as a weighted graph using OpenStreetMap data
-          - Implemented Dijkstra’s and A* search to compute optimal routes between locations
-
-          🔹 **Heuristic Design & Evaluation**
-          - Implemented and compared Haversine (great-circle) and Euclidean heuristics for A*
-          - Demonstrated ~72% fewer node expansions and ~2.4× runtime improvement over Dijkstra with an admissible heuristic
-
-          🔹 **Algorithmic Analysis**
-          - Analyzed time and space complexity and validated optimality guarantees
-          - Showed how poor heuristic choice can eliminate A*’s performance advantages
-
       - layout: top-middle
         title: MyAccess 2.0 — Liberty Mutual Intern Hackathon
         quote: >
@@ -126,6 +132,29 @@ content:
           Note: Repository is private to Liberty Mutual.
 
       - layout: top-middle
+        title: Smart Campus Navigation (AI Search & Heuristic Analysis)
+        quote: >
+          Spring 2025 • CSCI-B 351 (Artificial Intelligence)<br>
+          Tech: Python, A*, Dijkstra, OpenStreetMap, graph search, heuristics<br>
+          Role: Algorithm design, heuristic analysis, benchmarking
+        description: |
+          Built an AI-driven campus navigation system that computes optimal walking routes using classical search algorithms. The project models real campus pathways as a weighted graph and evaluates how heuristic choice impacts performance in A* search.
+
+          **My Contributions:**
+
+          🔹 **Graph Modeling & Pathfinding**
+          - Modeled campus buildings and walkways as a weighted graph using OpenStreetMap data
+          - Implemented Dijkstra’s and A* search to compute optimal routes between locations
+
+          🔹 **Heuristic Design & Evaluation**
+          - Implemented and compared Haversine (great-circle) and Euclidean heuristics for A*
+          - Demonstrated ~72% fewer node expansions and ~2.4× runtime improvement over Dijkstra with an admissible heuristic
+
+          🔹 **Algorithmic Analysis**
+          - Analyzed time and space complexity and validated optimality guarantees
+          - Showed how poor heuristic choice can eliminate A*’s performance advantages
+
+      - layout: top-middle
         title: Idea.AI — Luddy Hackathon Project (April 2025)
         additional_links:
           - title: Team Repo
@@ -160,36 +189,6 @@ content:
             <img src="/images/idea-ai/idea_homepage.png" alt="Home page" style="max-width: 45%; height: auto;">
           </div>
 
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Liberty Mutual Insurance
-        link: https://www.libertymutual.com
-        sub_title: Software Engineering Intern — Digital Analytics
-        caption: Summer 2026 – Boston, MA
-        quote: >
-          Re-architected an analytics-requirements assistant and expanded its reviewed knowledge base while improving the team’s engineering workflow.
-        description: |
-          Re-architected a Slack-based analytics-requirements chatbot from a monolithic knowledge-base prompt into a retrieval-augmented generation (RAG) system. Built a router that selects the relevant analytics implementation requirement document types while handling ambiguous requests.
-
-          Built a human-in-the-loop Excel-to-JSON ingestion pipeline and Git-reviewable knowledge base, expanding coverage from 1 to 3 document types with 68 reviewed records from 45 real analytics flows and 23 always-on rules.
-
-          Diagnosed more than 400 Codacy failures in a Kafka consumer as an ESLint v9 and Jest globals configuration gap. Reproduced the local/CI mismatch, isolated the CI/CD failure to an internal GitHub Actions wrapper, and drove platform and vendor escalation to a documented upstream limitation.
-
-      - layout: left
-        title: Liberty Mutual Insurance
-        link: https://www.libertymutual.com
-        sub_title: Software Engineering Intern — Software Testing
-        caption: Summer 2025 – Indianapolis, IN
-        quote: >
-          Built performance-testing tools and migration automation used across more than a dozen engineering teams.
-        description: |
-          Extended an internal k6 accelerator by building and integrating over 5 new features, including automated test triggering through GitHub Actions. This reduced manual effort and improved load-test coverage for more than a dozen engineering teams.
-
-          Designed and implemented a migration script that moved projects from LoadRunner Enterprise to LoadRunner Cloud, saving roughly 5 hours per project across 16 projects (over 80 total hours). This solved a vendor-declared limitation using custom scripting and pipeline automation.
-
   - title: Education
     layout: list
     content:
@@ -204,6 +203,17 @@ content:
 
           Outside the classroom, I’ve built full-stack and AI projects, participated in hackathons, and held a leadership role in Phi Gamma Nu. These experiences have strengthened my collaboration skills, technical depth, and practical approach to building software.
 
+  - title: Technical Skills
+    layout: text
+    content: |
+      **Languages:** Python, TypeScript, JavaScript, Java, SQL, C
+
+      **Frameworks & Libraries:** Next.js, React, Node.js, Express, Prisma, Slack Bolt, openpyxl
+
+      **Developer Tools:** Git, GitHub Actions, Docker, Kubernetes, k6, ESLint, Codacy
+
+      **Data Platforms:** Snowflake
+
   - title: Leadership
     layout: list
     content:
@@ -217,17 +227,6 @@ content:
           Led the Standards Board, ensuring member conduct matters were resolved fairly, confidentially, and in accordance with organizational bylaws.
 
           Planned and executed a comprehensive six-week onboarding program for more than 25 new members, establishing expectations for professionalism, accountability, and ethical conduct.
-
-  - title: Technical Skills
-    layout: text
-    content: |
-      **Languages:** Python, TypeScript, JavaScript, Java, SQL, C
-
-      **Frameworks & Libraries:** Next.js, React, Node.js, Express, Prisma, Slack Bolt, openpyxl
-
-      **Developer Tools:** Git, GitHub Actions, Docker, Kubernetes, k6, ESLint, Codacy
-
-      **Data Platforms:** Snowflake
 
   - title: A Little More About Me
     layout: text
